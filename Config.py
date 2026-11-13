@@ -10,29 +10,34 @@ RANDOM_STATE = 42
 # Dataset Configuration
 # ============================================================
 
+# DATASET_NAMES = [
+#     'Audit',
+#     'Breast',
+#     'Chess',
+#     'CTG',
+#     'Faults',
+#     'German',
+#     'Ionosphere',
+#     'Sonar',
+#     'Statlog',
+#     'Steel',
+#     'WDVG1',
+#     'QSAR',
+#     'Mfeat_Zernike',
+#     'MiniBooNE',
+#     'Parkinsons',
+#     'Phishing',
+#     'Sensorless',
+#     'Wall_Following',
+#     'Spambase',
+#     'Waveform',
+# ]
+
 DATASET_NAMES = [
-    'Audit',
     'Breast',
-    'Chess',
-    'CTG',
-    'Faults',
-    'German',
     'Ionosphere',
     'Sonar',
-    'Statlog',
-    'Steel',
-    'WDVG1',
-    'QSAR',
-    'Mfeat_Zernike',
-    'MiniBooNE',
-    'Parkinsons',
-    'Phishing',
-    'Sensorless',
-    'Wall_Following',
-    'Spambase',
-    'Waveform',
 ]
-
 # ============================================================
 # Data Splitting
 # ============================================================
@@ -80,8 +85,8 @@ CONVERGENCE_FOLDER = 'history/convergence'
 ALGORITHMS = [
     'ARBOS',
     'BinaryDE',
-    'BinaryGA',
-    'BinaryGWO',
+    #'BinaryGA',
+    #'BinaryGWO',
     'BinaryPSO',
 ]
 

@@ -180,3 +180,5 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 *.csv
+/history
+temp.py
